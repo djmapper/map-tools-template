@@ -300,6 +300,12 @@ Evented, declare, lang, has, esriNS, _WidgetBase, _TemplatedMixin, on, dijitTemp
                 var featureCollection = layer.featureCollection;
                 var visibleLayers;
                 var i;
+				console.log(this.layers)
+				for (i = 0; i < this.layers.length; i++) {
+                  var info = this.layers[i];
+				  //console.log(info)
+				  info.layerObject.setVisibility(false)
+                }
                 if (featureCollection) {
                     // visible feature layers
                     visibleLayers = layer.visibleLayers;

@@ -19,7 +19,7 @@ define({
     //Default configuration settings for the application. This is where you'll define things like a bing maps key,
     //default web map, default app color theme and more. These values can be overwritten by template configuration settings and url parameters.
     "appid": "",
-    "webmap": "24e01ef45d40423f95300ad2abc5038a",
+    "webmap": "92c2989a70a74af48834669ccc3c1723",
     "oauthappid": null, //"AFTKRmv16wj14N3z",
     //Group templates must support a group url parameter. This will contain the id of the group.
     "group": "",
@@ -33,7 +33,7 @@ define({
     //Custom Basic Viewer properties
     "title": null, //enter a title if no title is specified web map title is used. 
     "showtitle": true,
-    "description": null, //Description if not entered web map desc is used. 
+    "description": "Testing 123", //Description if not entered web map desc is used. 
     "theme": "#545454",
     "titlecolor": "#333",
     "color": "#fff",
@@ -42,7 +42,7 @@ define({
     "showpanel": true,
     "panelwidth": 228,
     "legend": true,
-    "activepanel": "legend",
+    "activepanel": "details",
     //If your applcation needs to edit feature layer fields set this value to true. When false the map will
     //be dreated with layers that are not set to editable which allows the FeatureLayer to load features optimally. 
     "editor": false,
